@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    height: 530px;
+    padding: 0 200px 0 200px;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0 100px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.hero-left h1, #logo {
+    color: #f9faf8;
+}
+
+.top-links, .hero-content {
+    color: #e5e7eb;
+}
+
+.hero-content {
+    display: flex;
+    height: 200px;
+}
+
+.pholder {
+    background-color: #808080;
+}
+    
