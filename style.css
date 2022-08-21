@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
     
 }
 
@@ -11,19 +12,25 @@ body {
     height: 530px;
     padding: 0 200px 0 200px;
     
+    
 }
 
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 8px 0 100px 0;
+    padding: 8px 200px 100px 200px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 .hero-left h1, #logo {
@@ -32,14 +39,43 @@ ul {
 
 .top-links, .hero-content {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .hero-content {
     display: flex;
-    height: 200px;
+    height: 250px;
+    gap: 50px;
+    padding: 0 200px 0 200px;
+    
 }
 
 .pholder {
     background-color: #808080;
-}
+    text-align: center;
+    min-width: 530px;
     
+}
+
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero-left p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 16px;
+    border-radius: 10px;
+    border-style: none;
+    padding: 8px 30px 8px 30px;
+}
