@@ -210,3 +210,12 @@ ul {
     border-radius: 10px;
     border-style: solid;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+}
