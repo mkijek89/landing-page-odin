@@ -149,6 +149,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 100px;
+    color: #1f2937;
 }
 
 .quote-text {
@@ -166,3 +167,46 @@ ul {
 }
 
 /* FOURTH SECTION */
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    min-height: 380px;
+    padding: 0 260px 0 260px;
+    align-items: center;
+    justify-content: center
+}
+
+.fourth-content {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    padding: 25px 126px 25px 126px;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 160px;
+}
+
+.fourth-text h1 {
+    color: #f9faf8;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.fourth-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.fourth-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 25px 5px 25px;
+    border-color: #f9faf8;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+}
