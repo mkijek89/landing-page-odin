@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: "Roboto", sans-serif;
     
+    
 }
 
 /* first section */
@@ -132,3 +133,36 @@ ul {
     border-color: #3882f6;
 }
 
+/* THIRD SECTION */
+
+.third{
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    padding: 0 400px 0 400px;
+    background-color: #e5e7eb;
+    align-items: center;
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: 900;
+    align-self: flex-end;
+    margin-top: 0;
+}
+
+/* FOURTH SECTION */
